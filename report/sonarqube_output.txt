@@ -1,0 +1,170 @@
+INFO: Scanner configuration file: C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\lib\sonar-scanner-4.7.0.2747-windows\bin\..\conf\sonar-scanner.properties
+INFO: Project root configuration file: C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\FlowAnalysisCpp\sonar-project.properties
+INFO: SonarScanner 4.7.0.2747
+INFO: Java 11.0.14.1 Eclipse Adoptium (64-bit)
+INFO: Windows 10 10.0 amd64
+INFO: User cache: C:\Users\mthomas\.sonar\cache
+INFO: Scanner configuration file: C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\lib\sonar-scanner-4.7.0.2747-windows\bin\..\conf\sonar-scanner.properties
+INFO: Project root configuration file: C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\FlowAnalysisCpp\sonar-project.properties
+INFO: Analyzing on SonarQube server 9.5.0.56709
+INFO: Default locale: "en_US", source code encoding: "windows-1252" (analysis is platform dependent)
+INFO: Load global settings
+INFO: Load global settings (done) | time=52ms
+INFO: Server id: 147B411E-AYJG3siNGFX2pzZqlelj
+INFO: User cache: C:\Users\mthomas\.sonar\cache
+INFO: Load/download plugins
+INFO: Load plugins index
+INFO: Load plugins index (done) | time=31ms
+INFO: Load/download plugins (done) | time=142ms
+INFO: Loaded core extensions: developer-scanner
+INFO: Process project properties
+INFO: Process project properties (done) | time=7ms
+INFO: Execute project builders
+INFO: Execute project builders (done) | time=1ms
+INFO: Project key: FlowAnalysisCpp
+INFO: Base dir: C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\FlowAnalysisCpp
+INFO: Working dir: C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\FlowAnalysisCpp\.scannerwork
+INFO: Load project settings for component key: 'FlowAnalysisCpp'
+INFO: Load project settings for component key: 'FlowAnalysisCpp' (done) | time=33ms
+INFO: Load project branches
+INFO: Load project branches (done) | time=35ms
+INFO: Load project pull requests
+INFO: Load project pull requests (done) | time=10ms
+INFO: Load branch configuration
+INFO: Load branch configuration (done) | time=1ms
+WARN: SCM provider autodetection failed. Please use "sonar.scm.provider" to define SCM of your project, or disable the SCM Sensor in the project settings.
+INFO: Load quality profiles
+INFO: Load quality profiles (done) | time=1195ms
+INFO: Load active rules
+INFO: Load active rules (done) | time=22719ms
+INFO: Load analysis cache
+INFO: Load analysis cache | time=68ms
+INFO: Load project repositories
+INFO: Load project repositories (done) | time=26ms
+INFO: Indexing files...
+INFO: Project configuration:
+INFO:   Included sources: *.cpp, *.hpp
+INFO: 6 files indexed
+INFO: 748 files ignored because of inclusion/exclusion patterns
+INFO: Quality profile for cpp: Parasoft C/C++Test
+INFO: ------------- Run sensors on module FlowAnalysisCpp
+INFO: Load metrics repository
+INFO: Load metrics repository (done) | time=32ms
+INFO: Sensor C# Project Type Information [csharp]
+INFO: Sensor C# Project Type Information [csharp] (done) | time=0ms
+INFO: Sensor C# Analysis Log [csharp]
+INFO: Sensor C# Analysis Log [csharp] (done) | time=9ms
+INFO: Sensor C# Properties [csharp]
+INFO: Sensor C# Properties [csharp] (done) | time=0ms
+INFO: Sensor HTML [web]
+INFO: Sensor HTML [web] (done) | time=1ms
+INFO: Sensor Text Sensor [text]
+INFO: 6 source files to be analyzed
+INFO: 6/6 source files have been analyzed
+INFO: Sensor Text Sensor [text] (done) | time=3ms
+INFO: Sensor VB.NET Project Type Information [vbnet]
+INFO: Sensor VB.NET Project Type Information [vbnet] (done) | time=0ms
+INFO: Sensor VB.NET Analysis Log [vbnet]
+INFO: Sensor VB.NET Analysis Log [vbnet] (done) | time=10ms
+INFO: Sensor VB.NET Properties [vbnet]
+INFO: Sensor VB.NET Properties [vbnet] (done) | time=0ms
+INFO: Sensor JaCoCo XML Report Importer [jacoco]
+INFO: 'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+INFO: No report imported, no coverage information will be imported by JaCoCo XML Report Importer
+INFO: Sensor JaCoCo XML Report Importer [jacoco] (done) | time=1ms
+INFO: Sensor CSS Rules [javascript]
+INFO: No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
+INFO: Sensor CSS Rules [javascript] (done) | time=1ms
+INFO: Sensor ThymeLeaf template sensor [securityjavafrontend]
+INFO: javasecurity:S5131 is not activated in quality profile: skipping execution of thymeleaf sensor.
+INFO: Sensor ThymeLeaf template sensor [securityjavafrontend] (done) | time=0ms
+INFO: Sensor Serverless configuration file sensor [security]
+INFO: 0 Serverless function entries were found in the project
+INFO: 0 Serverless function handlers were kept as entrypoints
+INFO: Sensor Serverless configuration file sensor [security] (done) | time=2ms
+INFO: Sensor AWS SAM template file sensor [security]
+INFO: Sensor AWS SAM template file sensor [security] (done) | time=0ms
+INFO: Sensor CFamily [cpp]
+INFO: CFamily plugin version: 6.34.0.48468
+INFO: Using build-wrapper output: C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\FlowAnalysisCpp\.\build_wrapper_output_directory\build-wrapper-dump.json
+INFO: Available processors: 16
+INFO: Using 16 threads for analysis.
+INFO: Loading cache from: server
+INFO: Cache hit for: C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\FlowAnalysisCpp\NullPointer.cpp
+INFO: Cache hit for: C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\FlowAnalysisCpp\DivisionByZero.cpp
+INFO: Cache hit for: C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\FlowAnalysisCpp\MemoryLeak.cpp
+INFO: Cache hit for: C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\FlowAnalysisCpp\DeadLock.cpp
+INFO: PCH: unique=0 use=0 (forceInclude=0,throughHeader=0,firstInclude=0) out of 4 (forceInclude=0,throughHeader=0)
+INFO: SE: 4 out of 4
+INFO: Z3 refutation rate: 0 out of 0
+INFO: Subprocess(es) done in 163ms
+INFO: Cache: 4/4 hits, 10049 bytes
+INFO: 4 compilation units analyzed
+INFO: Sensor CFamily [cpp] (done) | time=1467ms
+INFO: Sensor javabugs [dbd]
+INFO: Reading IR files from: C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\FlowAnalysisCpp\.scannerwork\ir\java
+INFO: No IR files have been included for analysis.
+INFO: Sensor javabugs [dbd] (done) | time=0ms
+INFO: Sensor JavaSecuritySensor [security]
+INFO: No taint analysis rules have been enabled, will not execute taint analysis.
+INFO: Sensor JavaSecuritySensor [security] (done) | time=1ms
+INFO: Sensor CSharpSecuritySensor [security]
+INFO: No taint analysis rules have been enabled, will not execute taint analysis.
+INFO: Sensor CSharpSecuritySensor [security] (done) | time=0ms
+INFO: Sensor PhpSecuritySensor [security]
+INFO: Reading type hierarchy from: C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\FlowAnalysisCpp\.scannerwork\ucfg2\php
+INFO: Read 0 type definitions
+INFO: Reading UCFGs from: C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\FlowAnalysisCpp\.scannerwork\ucfg2\php
+INFO: No UCFGs have been included for analysis.
+INFO: Sensor PhpSecuritySensor [security] (done) | time=2ms
+INFO: Sensor PythonSecuritySensor [security]
+INFO: Reading type hierarchy from: C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\FlowAnalysisCpp\.scannerwork\ucfg2\python
+INFO: Read 0 type definitions
+INFO: Reading UCFGs from: C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\FlowAnalysisCpp\.scannerwork\ucfg2\python
+INFO: No UCFGs have been included for analysis.
+INFO: Sensor PythonSecuritySensor [security] (done) | time=0ms
+INFO: Sensor JsSecuritySensor [security]
+INFO: Reading type hierarchy from: C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\FlowAnalysisCpp\.scannerwork\ucfg2\js
+INFO: Read 0 type definitions
+INFO: Reading UCFGs from: C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\FlowAnalysisCpp\.scannerwork\ucfg2\js
+INFO: No UCFGs have been included for analysis.
+INFO: Sensor JsSecuritySensor [security] (done) | time=0ms
+INFO: ------------- Run sensors on project
+INFO: Sensor Analysis Warnings import [csharp]
+INFO: Sensor Analysis Warnings import [csharp] (done) | time=0ms
+INFO: Sensor Findings for Parasoft C/C++Test [parasoft]
+WARN: Can not get IPreferences for:parallel.preferences.id
+INFO: Service initialization
+INFO: Parsing XML report: C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\FlowAnalysisCpp\report\report.xml
+INFO: Diagnostics mode is OFF.
+INFO: Collected location with finding(s): NullPointer.cpp
+INFO: Collected location with finding(s): DivisionByZero.cpp
+INFO: Collected location with finding(s): MemoryLeak.cpp
+INFO: Collected location with finding(s): DeadLock.cpp
+INFO: 2468 findings imported
+INFO: Created: 178 issues in: NullPointer.cpp
+INFO: No findings for: Shapes.hpp
+INFO: Created: 98 issues in: DivisionByZero.cpp
+INFO: Created: 1868 issues in: DeadLock.cpp
+INFO: Created: 324 issues in: MemoryLeak.cpp
+INFO: No findings for: Point.hpp
+INFO: Sensor Findings for Parasoft C/C++Test [parasoft] (done) | time=2850ms
+INFO: Sensor Zero Coverage Sensor
+INFO: Sensor Zero Coverage Sensor (done) | time=6ms
+INFO: SCM Publisher No SCM system was detected. You can use the 'sonar.scm.provider' property to explicitly specify it.
+INFO: CPD Executor 2 files had no CPD blocks
+INFO: CPD Executor Calculating CPD for 4 files
+INFO: CPD Executor CPD calculation finished (done) | time=12ms
+INFO: Analysis report generated in 56ms, dir size=1.1 MB
+INFO: Analysis report compressed in 38ms, zip size=123.7 kB
+INFO: Analysis report uploaded in 99ms
+INFO: ANALYSIS SUCCESSFUL, you can find the results at: http://citools.parasoft.com:9000/dashboard?id=FlowAnalysisCpp
+INFO: Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+INFO: More about the report processing at http://citools.parasoft.com:9000/api/ce/task?id=AYLrVDHSnI0ZaCZ9sZaM
+INFO: Analysis total time: 31.131 s
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION SUCCESS
+INFO: ------------------------------------------------------------------------
+INFO: Total time: 32.066s
+INFO: Final Memory: 38M/168M
+INFO: ------------------------------------------------------------------------

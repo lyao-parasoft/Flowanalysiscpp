@@ -1,0 +1,78 @@
+# (C) SonarSource SA, 2014-2022, info@sonarsource.com
+# All SONARSOURCE programs and content are copyright protected.
+# SONARSOURCE and SONARQUBE are trademarks of SonarSource SA. All rights are expressly reserved.
+#
+# This file is designed exclusively for use with the SONARSOURCE C / C++ / Objective-C Plugin.
+# It may not be used in connection with any other software.
+# Any other use is prohibited by law and may be grounds for immediate termination of your License.
+{
+"version":"6.34",
+"captures":[
+{
+"compiler":"clang",
+"executable":"E:\\cygwin64\\bin\\g++.exe",
+"cmd": [
+"E:\\cygwin64\\bin\\g++.exe",
+"-g",
+"-Iinclude",
+"-o",
+"obj\/NullPointer.o",
+"-c",
+"NullPointer.cpp"],
+"cwd":"C:\\Users\\mthomas\\Desktop\\sonar_integration_test_example_projects\\example_projects\\FlowAnalysisCpp\\",
+"env": [
+"PATH=E:\\cygwin64\\usr\\local\\bin;E:\\cygwin64\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Java\\jdk-11\\bin;C:\\Users\\mthomas\\Desktop\\apache-maven-3.8.5\\bin;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn;C:\\Program Files\\dotnet;C:\\Users\\mthomas\\Desktop\\SonarQube\\cpptest;C:\\Users\\mthomas\\Desktop\\automation\\eclipse\\rcptt_resources\\jtest_master;C:\\Users\\mthomas\\Desktop\\SonarQube\\sonar-scanner-4.7.0.2747-windows\\bin;C:\\Users\\mthomas\\Desktop\\SonarQube\\build-wrapper-win-x86;C:\\Users\\mthomas\\Desktop\\SonarQube\\dottest;C:\\Users\\mthomas\\Desktop\\SonarQube\\jtest;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin;C:\\Users\\mthomas\\AppData\\Local\\Programs\\Python\\Python310\\Scripts;C:\\Users\\mthomas\\AppData\\Local\\Programs\\Python\\Python310;C:\\Users\\mthomas\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\mthomas\\.dotnet\\tools;E:\\cygwin64\\lib\\lapack;~\\arcanist\\arcanist\\bin\\",
+"SYSTEMDRIVE=C:",
+"SYSTEMROOT=C:\\Windows",
+"WINDIR=C:\\Windows"]},
+{
+"compiler":"clang",
+"executable":"E:\\cygwin64\\bin\\g++.exe",
+"cmd": [
+"E:\\cygwin64\\bin\\g++.exe",
+"-g",
+"-Iinclude",
+"-o",
+"obj\/DivisionByZero.o",
+"-c",
+"DivisionByZero.cpp"],
+"cwd":"C:\\Users\\mthomas\\Desktop\\sonar_integration_test_example_projects\\example_projects\\FlowAnalysisCpp\\",
+"env": [
+"PATH=E:\\cygwin64\\usr\\local\\bin;E:\\cygwin64\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Java\\jdk-11\\bin;C:\\Users\\mthomas\\Desktop\\apache-maven-3.8.5\\bin;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn;C:\\Program Files\\dotnet;C:\\Users\\mthomas\\Desktop\\SonarQube\\cpptest;C:\\Users\\mthomas\\Desktop\\automation\\eclipse\\rcptt_resources\\jtest_master;C:\\Users\\mthomas\\Desktop\\SonarQube\\sonar-scanner-4.7.0.2747-windows\\bin;C:\\Users\\mthomas\\Desktop\\SonarQube\\build-wrapper-win-x86;C:\\Users\\mthomas\\Desktop\\SonarQube\\dottest;C:\\Users\\mthomas\\Desktop\\SonarQube\\jtest;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin;C:\\Users\\mthomas\\AppData\\Local\\Programs\\Python\\Python310\\Scripts;C:\\Users\\mthomas\\AppData\\Local\\Programs\\Python\\Python310;C:\\Users\\mthomas\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\mthomas\\.dotnet\\tools;E:\\cygwin64\\lib\\lapack;~\\arcanist\\arcanist\\bin\\",
+"SYSTEMDRIVE=C:",
+"SYSTEMROOT=C:\\Windows",
+"WINDIR=C:\\Windows"]},
+{
+"compiler":"clang",
+"executable":"E:\\cygwin64\\bin\\g++.exe",
+"cmd": [
+"E:\\cygwin64\\bin\\g++.exe",
+"-g",
+"-Iinclude",
+"-o",
+"obj\/MemoryLeak.o",
+"-c",
+"MemoryLeak.cpp"],
+"cwd":"C:\\Users\\mthomas\\Desktop\\sonar_integration_test_example_projects\\example_projects\\FlowAnalysisCpp\\",
+"env": [
+"PATH=E:\\cygwin64\\usr\\local\\bin;E:\\cygwin64\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Java\\jdk-11\\bin;C:\\Users\\mthomas\\Desktop\\apache-maven-3.8.5\\bin;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn;C:\\Program Files\\dotnet;C:\\Users\\mthomas\\Desktop\\SonarQube\\cpptest;C:\\Users\\mthomas\\Desktop\\automation\\eclipse\\rcptt_resources\\jtest_master;C:\\Users\\mthomas\\Desktop\\SonarQube\\sonar-scanner-4.7.0.2747-windows\\bin;C:\\Users\\mthomas\\Desktop\\SonarQube\\build-wrapper-win-x86;C:\\Users\\mthomas\\Desktop\\SonarQube\\dottest;C:\\Users\\mthomas\\Desktop\\SonarQube\\jtest;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin;C:\\Users\\mthomas\\AppData\\Local\\Programs\\Python\\Python310\\Scripts;C:\\Users\\mthomas\\AppData\\Local\\Programs\\Python\\Python310;C:\\Users\\mthomas\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\mthomas\\.dotnet\\tools;E:\\cygwin64\\lib\\lapack;~\\arcanist\\arcanist\\bin\\",
+"SYSTEMDRIVE=C:",
+"SYSTEMROOT=C:\\Windows",
+"WINDIR=C:\\Windows"]},
+{
+"compiler":"clang",
+"executable":"E:\\cygwin64\\bin\\g++.exe",
+"cmd": [
+"E:\\cygwin64\\bin\\g++.exe",
+"-g",
+"-Iinclude",
+"-o",
+"obj\/DeadLock.o",
+"-c",
+"DeadLock.cpp"],
+"cwd":"C:\\Users\\mthomas\\Desktop\\sonar_integration_test_example_projects\\example_projects\\FlowAnalysisCpp\\",
+"env": [
+"PATH=E:\\cygwin64\\usr\\local\\bin;E:\\cygwin64\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Java\\jdk-11\\bin;C:\\Users\\mthomas\\Desktop\\apache-maven-3.8.5\\bin;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn;C:\\Program Files\\dotnet;C:\\Users\\mthomas\\Desktop\\SonarQube\\cpptest;C:\\Users\\mthomas\\Desktop\\automation\\eclipse\\rcptt_resources\\jtest_master;C:\\Users\\mthomas\\Desktop\\SonarQube\\sonar-scanner-4.7.0.2747-windows\\bin;C:\\Users\\mthomas\\Desktop\\SonarQube\\build-wrapper-win-x86;C:\\Users\\mthomas\\Desktop\\SonarQube\\dottest;C:\\Users\\mthomas\\Desktop\\SonarQube\\jtest;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin;C:\\Users\\mthomas\\AppData\\Local\\Programs\\Python\\Python310\\Scripts;C:\\Users\\mthomas\\AppData\\Local\\Programs\\Python\\Python310;C:\\Users\\mthomas\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\mthomas\\.dotnet\\tools;E:\\cygwin64\\lib\\lapack;~\\arcanist\\arcanist\\bin\\",
+"SYSTEMDRIVE=C:",
+"SYSTEMROOT=C:\\Windows",
+"WINDIR=C:\\Windows"]}]}

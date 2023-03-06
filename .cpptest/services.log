@@ -1,0 +1,737 @@
+Diagnostics file initialized on Mon Feb 27 16:07:05 PST 2023
+================================================================================================
+AVAILABLE BUNDLES AND SERVICES (98)
+================================================================================================
+Bundle [0]: org.apache.felix.framework, state: [8], version: 7.0.3
+Bundle [1]: org.apache.felix.scr, state: [32], version: 1.8.2
+Bundle [2]: com.parasoft.xtest.services.api, state: [32], version: 10.6.0.20220510
+Bundle [3]: com.parasoft.xtest.analyzers.api, state: [2], version: 10.6.0.20220510
+Bundle [4]: com.parasoft.xtest.common.api, state: [2], version: 10.6.0.20220510
+Bundle [5]: com.parasoft.xtest.common.base, state: [2], version: 10.6.0.20220510
+Bundle [6]: com.parasoft.xtest.configuration.api, state: [2], version: 10.6.0.20220510
+Bundle [7]: com.parasoft.xtest.coverage.api, state: [2], version: 10.6.0.20220510
+Bundle [8]: com.parasoft.xtest.cpp.api, state: [2], version: 10.6.0.20220614B1716
+Bundle [9]: com.parasoft.xtest.dupcode.api, state: [2], version: 10.6.0.20220510
+Bundle [10]: com.parasoft.xtest.logging.api, state: [4], version: 10.6.0.20220510
+Bundle [11]: com.parasoft.xtest.results.api, state: [2], version: 10.6.0.20220510
+Bundle [12]: com.parasoft.xtest.scope.api, state: [2], version: 10.6.0.20220510
+Bundle [13]: com.parasoft.xtest.testcases.api, state: [2], version: 10.6.0.20220510
+Bundle [14]: groovy-all, state: [2], version: 2.4.21
+Bundle [15]: com.parasoft.xtest.cpp.analyzer.code, state: [2], version: 10.6.0.20220614B1716
+Bundle [16]: com.parasoft.xtest.cpp.analyzer.dependency, state: [2], version: 10.6.0.20220614B1716
+Bundle [17]: com.parasoft.xtest.cpp.analyzer.googletest, state: [2], version: 10.6.0.20220614B1716
+Bundle [18]: com.parasoft.xtest.cpp.analyzer.metrics, state: [2], version: 10.6.0.20220614B1716
+Bundle [19]: com.parasoft.xtest.cpp.analyzer.scripting, state: [2], version: 10.6.0.20220614B1716
+Bundle [20]: com.parasoft.xtest.cpp.analyzer.static.global, state: [2], version: 10.6.0.20220614B1716
+Bundle [21]: com.parasoft.xtest.cpp.config.rulesvalidator, state: [2], version: 10.6.0.20220614B1716
+Bundle [22]: com.parasoft.xtest.cpp.coverage, state: [2], version: 10.6.0.20220614B1716
+Bundle [23]: com.parasoft.xtest.cpp.coverageanalyzer, state: [2], version: 10.6.0.20220614B1716
+Bundle [24]: com.parasoft.xtest.cpp.dupcode, state: [2], version: 10.6.0.20220614B1716
+Bundle [25]: com.parasoft.xtest.cpp.filter.duplicateviolationsremover, state: [2], version: 10.6.0.20220614B1716
+Bundle [26]: com.parasoft.xtest.cpp.filter.fileexists, state: [2], version: 10.6.0.20220614B1716
+Bundle [27]: com.parasoft.xtest.cpp.filter.filename, state: [2], version: 10.6.0.20220614B1716
+Bundle [28]: com.parasoft.xtest.cpp.filter.linesuppressions, state: [2], version: 10.6.0.20220614B1716
+Bundle [29]: com.parasoft.xtest.cpp.filter.localsuppressions, state: [2], version: 10.6.0.20220614B1716
+Bundle [30]: com.parasoft.xtest.cpp.filter.ownerassigner, state: [2], version: 10.6.0.20220614B1716
+Bundle [31]: com.parasoft.xtest.cpp.filter.violationmessagedecorator, state: [2], version: 10.6.0.20220614B1716
+Bundle [32]: com.parasoft.xtest.cpp.filter.violationslimiter, state: [2], version: 10.6.0.20220614B1716
+Bundle [33]: com.parasoft.xtest.cpp.flowexecutor, state: [2], version: 10.6.0.20220614B1716
+Bundle [34]: com.parasoft.xtest.cpp.integration.desktop, state: [2], version: 10.6.0.20220614B1716
+Bundle [35]: com.parasoft.xtest.cpp.integration.unittesting, state: [2], version: 10.6.0.20220614B1716
+Bundle [36]: com.parasoft.xtest.cpp.reporter.csv, state: [2], version: 10.6.0.20220614B1716
+Bundle [37]: com.parasoft.xtest.cpp.reporter.desktop, state: [2], version: 10.6.0.20220614B1716
+Bundle [38]: com.parasoft.xtest.cpp.reporter.exitcode, state: [2], version: 10.6.0.20220614B1716
+Bundle [39]: com.parasoft.xtest.cpp.reporter.txt, state: [2], version: 10.6.0.20220614B1716
+Bundle [40]: com.parasoft.xtest.cpp.reporter.xml, state: [2], version: 10.6.0.20220614B1716
+Bundle [41]: com.parasoft.xtest.cpp.scope.adjuster.cu, state: [2], version: 10.6.0.20220614B1716
+Bundle [42]: com.parasoft.xtest.cpp.scope.bdf, state: [2], version: 10.6.0.20220614B1716
+Bundle [43]: com.parasoft.xtest.cpp.scope.cmake, state: [2], version: 10.6.0.20220614B1716
+Bundle [44]: com.parasoft.xtest.cpp.scope.coverage, state: [2], version: 10.6.0.20220614B1716
+Bundle [45]: com.parasoft.xtest.cpp.scope.direct, state: [2], version: 10.6.0.20220614B1716
+Bundle [46]: com.parasoft.xtest.cpp.scope.googletest, state: [2], version: 10.6.0.20220614B1716
+Bundle [47]: com.parasoft.xtest.cpp.scope.lst, state: [2], version: 10.6.0.20220614B1716
+Bundle [48]: com.parasoft.xtest.cpp.scope.sln, state: [2], version: 10.6.0.20220614B1716
+Bundle [49]: com.parasoft.xtest.cpp.scope.trace, state: [2], version: 10.6.0.20220614B1716
+Bundle [50]: com.parasoft.xtest.cpp.scope.txt, state: [2], version: 10.6.0.20220614B1716
+Bundle [51]: com.parasoft.xtest.cpp.scope.vcproj, state: [2], version: 10.6.0.20220614B1716
+Bundle [52]: com.parasoft.xtest.cpp.scope.vcxproj, state: [2], version: 10.6.0.20220614B1716
+Bundle [53]: com.parasoft.xtest.cpp.scopeanalyzer, state: [2], version: 10.6.0.20220614B1716
+Bundle [54]: com.parasoft.xtest.cpp.staticanalyzer, state: [2], version: 10.6.0.20220614B1716
+Bundle [55]: com.parasoft.xtest.cpp.techsupport, state: [2], version: 10.6.0.20220614B1716
+Bundle [56]: com.parasoft.xtest.cpp.util, state: [2], version: 10.6.0.20220614B1716
+Bundle [57]: com.parasoft.xtest.cpp.flowanalyzer, state: [2], version: 10.6.0.20220527B3558
+Bundle [58]: com.parasoft.xtest.flowanalysis, state: [2], version: 10.6.0.20220527B3558
+Bundle [59]: com.parasoft.xtest.flowanalysis.api, state: [2], version: 10.6.0.20220527B3558
+Bundle [60]: com.parasoft.xtest.flowanalysis.common, state: [2], version: 10.6.0.20220527B3558
+Bundle [61]: com.parasoft.xtest.flowanalysis.precondition, state: [2], version: 10.6.0.20220527B3558
+Bundle [62]: com.parasoft.xtest.language.api, state: [2], version: 10.6.0.20220527B3558
+Bundle [63]: com.parasoft.xtest.authorship, state: [2], version: 10.6.0.20220510
+Bundle [64]: com.parasoft.xtest.chart.api, state: [2], version: 10.6.0.20220510
+Bundle [65]: com.parasoft.xtest.common, state: [2], version: 10.6.0.20220510
+Bundle [66]: com.parasoft.xtest.communicator, state: [2], version: 10.6.0.20220510
+Bundle [67]: com.parasoft.xtest.configuration, state: [2], version: 10.6.0.20220510
+Bundle [68]: com.parasoft.xtest.coverage, state: [2], version: 10.6.0.20220510
+Bundle [69]: com.parasoft.xtest.dupcode, state: [2], version: 10.6.0.20220510
+Bundle [70]: com.parasoft.xtest.lic.client, state: [2], version: 10.6.0.20220510
+Bundle [71]: com.parasoft.xtest.preference.api, state: [2], version: 10.6.0.20220510
+Bundle [72]: com.parasoft.xtest.reports.api, state: [2], version: 10.6.0.20220510
+Bundle [73]: com.parasoft.xtest.reports.fonts, state: [2], version: 10.6.0.20220510
+Bundle [74]: com.parasoft.xtest.reports, state: [2], version: 10.6.0.20220510
+Bundle [75]: com.parasoft.xtest.repository, state: [2], version: 10.6.0.20220510
+Bundle [76]: com.parasoft.xtest.resource.api, state: [2], version: 10.6.0.20220510
+Bundle [77]: com.parasoft.xtest.results, state: [2], version: 10.6.0.20220510
+Bundle [78]: com.parasoft.xtest.scontrol.api, state: [2], version: 10.6.0.20220510
+Bundle [79]: com.parasoft.xtest.scontrol.tfs, state: [2], version: 10.6.0.20220510
+Bundle [80]: com.parasoft.xtest.scontrol, state: [2], version: 10.6.0.20220510
+Bundle [81]: com.parasoft.xtest.scope, state: [2], version: 10.6.0.20220510
+Bundle [82]: com.parasoft.xtest.share.api, state: [2], version: 10.6.0.20220510
+Bundle [83]: com.parasoft.xtest.share, state: [2], version: 10.6.0.20220510
+Bundle [84]: com.parasoft.xtest.suppressions, state: [2], version: 10.6.0.20220510
+Bundle [85]: com.parasoft.xtest.techsupport, state: [2], version: 10.6.0.20220510
+Bundle [86]: com.parasoft.xtest.testassist.api, state: [2], version: 10.6.0.20220510
+Bundle [87]: com.sun.activation.javax.activation, state: [2], version: 1.2.0
+Bundle [88]: com.sun.mail.javax.mail, state: [2], version: 1.6.2
+Bundle [89]: io.reactivex.rxjava2.rxjava, state: [2], version: 2.2.12
+Bundle [90]: javanet.staxutils, state: [2], version: 1.0.0
+Bundle [91]: org.apache.commons.commons-io, state: [2], version: 2.8.0
+Bundle [92]: org.apache.commons.logging, state: [2], version: 1.1.3
+Bundle [93]: org.apache.jcs, state: [2], version: 1.3.4
+Bundle [94]: org.codehaus.stax2, state: [2], version: 3.2.4
+Bundle [95]: org.json, state: [2], version: 1.0.0.v201507292202
+Bundle [96]: org.reactivestreams, state: [2], version: 1.0.2.v20181120-0809
+Bundle [97]: org.suigeneris.jrcs.diff, state: [2], version: 0.4.2
+
+
+
+================================================================================================
+SERVICE: com.parasoft.xtest.common.dtp.DtpAutoconfPreferencesService@1c32886a
+CONTEXT: com.parasoft.xtest.common.services.RawConsoleServiceContext@60f2e0bd
+LICENSE ENABLED: 
+================================================================================================
+LOCAL SETTINGS:
+    c++test.license.custom_edition_features=C++test,Static Analysis,Flow Analysis,Unit Test,Coverage,Automation,DTP Publish,Desktop Command Line,AUTOSAR Rules,CWE Rules,DISA STIG Rules,HIC++ Rules,JSF Rules,MISRA Rules,MISRA C 2012 Rules,OWASP Rules,Security Rules,SEI CERT C Rules,SEI CERT C++ Rules,Code Dependency Export
+    c++test.license.network.edition=custom_edition
+    c++test.license.network.type=ls
+    c++test.license.use_network=true
+    configuration.dir.builtin=${cpptest:root_dir}/configs/builtin
+    configuration.dir.user=C:\Users\mthomas\Desktop\SonarQube\cpptest\configs\user
+    configuration.share.path=c++test/configs
+    console.activate.on.text=false
+    console.verbosity.level=high
+    cpptest.analyzer.coverage.decision.enabled=false
+    cpptest.analyzer.coverage.enabled=true
+    cpptest.analyzer.coverage.line.enabled=true
+    cpptest.analyzer.dependency.data.location=${property:local.storage.dir}/com.parasoft.xtest.cpp.analyzer.dependency
+    cpptest.analyzer.dependency.enabled=true
+    cpptest.analyzer.dependency.report.file={2}_{1}.ldi.xml
+    cpptest.analyzer.dependency.report.location=${property:report.location}/deps
+    cpptest.analyzer.dependency.scope=true
+    cpptest.analyzer.desktop.ut.enabled=false
+    cpptest.analyzer.dupcode.enabled=true
+    cpptest.analyzer.flow.enabled=true
+    cpptest.analyzer.global.enabled=true
+    cpptest.analyzer.googletest.enabled=true
+    cpptest.analyzer.metrics.enabled=true
+    cpptest.analyzer.scope.enabled=false
+    cpptest.analyzer.source.enabled=true
+    cpptest.analyzer.source.incremental.enabled=true
+    cpptest.analyzer.source.timeout=3600
+    cpptest.analyzer.static.enabled=true
+    cpptest.analyzer.unittesting.enabled=true
+    cpptest.analyzer.verbose=false
+    cpptest.compiler.dir.builtin=${cpptest:root_dir}/bin/engine/etc/compilers
+    cpptest.compiler.dir.user=${cpptest:root_dir}/compilers
+    cpptest.config.properties.file=${cpptest:launcher_dir}/cpptestcli.properties;${cpptest:user_home}/cpptestcli.properties;cpptestcli.properties
+    cpptest.config.psrc.file=${cpptest:etc_dir}/default.psrc;
+    cpptest.configuration=builtin://Recommended Rules
+    cpptest.input.bdf.cache.enabled=true
+    cpptest.input.bdf.file=${cpptest:workspace_dir}/cpptest.bdf
+    cpptest.input.bdf.legacy.project.enabled=false
+    cpptest.input.msvc.add.compiler.options=-I.
+    cpptest.output.error.max.lines=10
+    cpptest.report.csv.enabled=false
+    cpptest.report.desktop.enabled=false
+    cpptest.report.text.enabled=true
+    cpptest.report.xml.enabled=false
+    cpptest.result.assign.owner.enabled=true
+    cpptest.result.limit.violations.enabled=false
+    cpptest.result.remove.duplicates.enabled=true
+    cpptest.rule.dir.builtin=${property:cpptest.rule.dir}/builtin/${cpptest:locale:en|ja|zh_CN}
+    cpptest.rule.dir.team=${property:local.storage.dir}/rules/team
+    cpptest.rule.dir.user=${property:rule.dir.user}
+    cpptest.rule.dir=${cpptest:root_dir}/rules
+    cpptest.scope.adjuster.cu.add.header=true
+    cpptest.scope.adjuster.cu.add.source=true
+    cpptest.scope.adjuster.cu.enabled=false
+    cpptest.scope.coverage.dir=${cpptest:workspace_dir}/.cpptest/cpptestcc
+    cpptest.scope.filter.fileexists.enabled=true
+    cpptest.scope.filter.name.enabled=true
+    cpptest.scope.filter.name.include=.*\.(${property:cpptest.testable.source.file.ext})|.*\.(${property:cpptest.testable.header.file.ext})
+    cpptest.scope.uptodate.check.enabled=true
+    cpptest.scripting.dir.builtin=${cpptest:root_dir}/scripts/builtin
+    cpptest.scripting.dir.user=${cpptest:root_dir}/scripts/user
+    cpptest.testable.header.file.ext=h|hpp|hxx|hh
+    cpptest.testable.source.file.ext=c|cpp|cxx|cc
+    dottest.license.custom_edition_features=dotTEST,Static Analysis,Flow Analysis,Unit Test,Coverage,Automation,Desktop Command Line,DTP Publish,CWE Rules,OWASP Rules,PCI DSS Rules,DISA STIG Rules,Security Rules
+    dottest.license.network.edition=custom_edition
+    dottest.license.network.type=ls
+    dottest.license.use_network=true
+    dottest.unit_testing.testing_projects=*.DotTest,*.Tests
+    dtp.password=>>hidden<<
+    dtp.port=443
+    dtp.project=C++test
+    dtp.server=snake.parasoft.com
+    dtp.url=https://snake.parasoft.com:443
+    dtp.user=devtest
+    jtest.license.custom_edition_features=Jtest,Unit Test,Static Analysis,Coverage,Flow Analysis,Change Based Testing,Security Rules,Unit Test Spring Framework,CWE Rules,Unit Test Bulk Creation,OWASP Rules,Unit Test Tier 1,PCI DSS Rules,Unit Test Tier 2,DISA STIG Rules,Unit Test Tier 3,DTP Publish,Unit Test Tier 4,Automation,Desktop Command Line
+    jtest.license.network.edition=custom_edition
+    jtest.license.network.type=ls
+    jtest.license.use_network=true
+    license.network.auth.enabled=false
+    license.network.use.specified.server=false
+    local.storage.dir=./.cpptest
+    logging.scontrol.verbose=false
+    oidc.callback.host=localhost
+    oidc.callback.port=0
+    oidc.callback.timeout=60
+    oidc.cli.mode=DeviceCode
+    oidc.devicecode.token.file=C:\Users\mthomas\AppData\Local\Parasoft\DtpPlugin\oidc_device_code
+    oidc.enabled=false
+    parallel.mode=Auto
+    parasoft.eula.accepted=true
+    report.active_rules=true
+    report.archive=true
+    report.associations=true
+    report.authors_details=true
+    report.contexts_details=true
+    report.coverage.limit=40
+    report.custom.extension=html
+    report.custom.xsl.file=C:\Users\mthomas\Desktop\SonarQube\xslt.xml
+    report.developer_errors=true
+    report.developer_reports=true
+    report.file.name=report
+    report.format=html
+    report.location=./report
+    report.rules=C:\Users\mthomas\Desktop\SonarQube\cpptest\rules\docs
+    report.setup.problems=bottom
+    report.suppressed_msgs=true
+    report.test_params=true
+    rule.dir.user=C:\Users\mthomas\Desktop\SonarQube\cpptest\rules\user
+    rules.provider_cpptest_cdd.analyzer=com.parasoft.xtest.cpp.analyzer.static.dupcode
+    rules.provider_cpptest_cdd.data=${property:cpptest.rule.dir}/builtin_cdd/rules.xml
+    rules.provider_cpptest_cdd.id=cpptest_cdd
+    rules.provider_cpptest_cdd.separator=-
+    rules.provider_cpptest_cdd.type=codeduplication
+    rules.provider_cpptest_cs_builtin.analyzer=com.parasoft.xtest.cpp.analyzer.static.pattern
+    rules.provider_cpptest_cs_builtin.categories=${property:cpptest.rule.dir.builtin}/categories.properties
+    rules.provider_cpptest_cs_builtin.data=${property:local.storage.dir}/rules/builtin/rules.xml
+    rules.provider_cpptest_cs_builtin.dir.exclude=.*[\\/]ext[\\/].*
+    rules.provider_cpptest_cs_builtin.dir=${property:cpptest.rule.dir.builtin}
+    rules.provider_cpptest_cs_builtin.id=cpptest_cs_builtin
+    rules.provider_cpptest_cs_builtin.mapping=${property:cpptest.rule.dir.builtin}/rulemap.xml
+    rules.provider_cpptest_cs_builtin.separator=-
+    rules.provider_cpptest_cs_builtin.type=codingstandards
+    rules.provider_cpptest_cs_dtp.analyzer=com.parasoft.xtest.cpp.analyzer.static.pattern
+    rules.provider_cpptest_cs_dtp.categories=${property:local.storage.dir}/rules/dtp/categories.properties
+    rules.provider_cpptest_cs_dtp.data=${property:local.storage.dir}/rules/dtp/rules.xml
+    rules.provider_cpptest_cs_dtp.dir.exclude=.*[\\/]ext[\\/].*
+    rules.provider_cpptest_cs_dtp.dir=${property:local.storage.dir}/rules/dtp
+    rules.provider_cpptest_cs_dtp.id=cpptest_cs_dtp
+    rules.provider_cpptest_cs_dtp.mapping=${property:local.storage.dir}/rules/dtp/rulemap.xml
+    rules.provider_cpptest_cs_dtp.separator=-
+    rules.provider_cpptest_cs_dtp.share.url=true
+    rules.provider_cpptest_cs_dtp.type=codingstandards
+    rules.provider_cpptest_cs_global.analyzer=com.parasoft.xtest.cpp.analyzer.static.global
+    rules.provider_cpptest_cs_global.data=${property:cpptest.rule.dir}/builtin_global/rules.xml
+    rules.provider_cpptest_cs_global.id=cpptest_cs_global
+    rules.provider_cpptest_cs_global.separator=-
+    rules.provider_cpptest_cs_global.type=codingstandards
+    rules.provider_cpptest_cs_team.analyzer=com.parasoft.xtest.cpp.analyzer.static.pattern
+    rules.provider_cpptest_cs_team.categories=${property:local.storage.dir}/rules/team/categories.properties
+    rules.provider_cpptest_cs_team.data=${property:local.storage.dir}/rules/team/rules.xml
+    rules.provider_cpptest_cs_team.dir.exclude=.*[\\/]ext[\\/].*
+    rules.provider_cpptest_cs_team.dir=${property:local.storage.dir}/rules/team
+    rules.provider_cpptest_cs_team.id=cpptest_cs_team
+    rules.provider_cpptest_cs_team.mapping=${property:local.storage.dir}/rules/team/rulemap.xml
+    rules.provider_cpptest_cs_team.separator=-
+    rules.provider_cpptest_cs_team.share.path=c++test/rules
+    rules.provider_cpptest_cs_team.type=codingstandards
+    rules.provider_cpptest_cs_user.analyzer=com.parasoft.xtest.cpp.analyzer.static.pattern
+    rules.provider_cpptest_cs_user.categories=${property:cpptest.rule.dir.user}/categories.properties
+    rules.provider_cpptest_cs_user.data=${property:local.storage.dir}/rules/user/rules.xml
+    rules.provider_cpptest_cs_user.dir.exclude=.*[\\/]ext[\\/].*
+    rules.provider_cpptest_cs_user.dir=${property:cpptest.rule.dir.user}
+    rules.provider_cpptest_cs_user.id=cpptest_cs_user
+    rules.provider_cpptest_cs_user.mapping=${property:cpptest.rule.dir.user}/rulemap.xml
+    rules.provider_cpptest_cs_user.separator=-
+    rules.provider_cpptest_cs_user.type=codingstandards
+    rules.provider_cpptest_fa_builtin.analyzer=com.parasoft.xtest.cpp.analyzer.static.flow
+    rules.provider_cpptest_fa_builtin.data=${property:cpptest.rule.dir}/builtin_fa/rules.xml
+    rules.provider_cpptest_fa_builtin.id=cpptest_fa_builtin
+    rules.provider_cpptest_fa_builtin.mapping=${property:cpptest.rule.dir}/builtin_fa/rulemap.xml
+    rules.provider_cpptest_fa_builtin.separator=-
+    rules.provider_cpptest_fa_builtin.type=flowanalysis
+    rules.provider_cpptest_fa_user.analyzer=com.parasoft.xtest.cpp.analyzer.static.flow
+    rules.provider_cpptest_fa_user.data=${property:cpptest.rule.dir}/user_fa/rules.xml
+    rules.provider_cpptest_fa_user.id=cpptest_fa_user
+    rules.provider_cpptest_fa_user.mapping=${property:cpptest.rule.dir}/user_fa/rulemap.xml
+    rules.provider_cpptest_fa_user.separator=-
+    rules.provider_cpptest_fa_user.type=flowanalysis
+    rules.provider_cpptest_metrics.analyzer=com.parasoft.xtest.cpp.analyzer.static.metrics
+    rules.provider_cpptest_metrics.data=${property:cpptest.rule.dir}/builtin_metrics/metrics.xml
+    rules.provider_cpptest_metrics.id=cpptest_metrics
+    rules.provider_cpptest_metrics.separator=.
+    rules.provider_cpptest_metrics.type=metrics
+    rules.provider_cpptest_pe_builtin.analyzer=com.parasoft.xtest.cpp.analyzer.static.pattern
+    rules.provider_cpptest_pe_builtin.data=${property:cpptest.rule.dir}/builtin_pe/rules.xml
+    rules.provider_cpptest_pe_builtin.id=cpptest_parseerrors_builtin
+    rules.provider_cpptest_pe_builtin.mapping=${property:cpptest.rule.dir}/builtin_pe/rulemap.xml
+    rules.provider_cpptest_pe_builtin.separator=-
+    rules.provider_cpptest_pe_builtin.type=codingstandards
+    runtime.command_line=cpptestcli -config ../../conf/cpptest_settings.properties -settings ../../conf/localsettings.properties -report ./report -compiler gcc_9-64 -trace make clean all
+    suppression1.comment=//
+    suppression1.file.ext=${property:cpptest.testable.source.file.ext}|${property:cpptest.testable.header.file.ext}
+    suppression2.comment=/*
+    suppression2.file.ext=${property:cpptest.testable.source.file.ext}|${property:cpptest.testable.header.file.ext}
+    techsupport.archive.location=C:\jenkins\workspace\sonarqube_integration_test
+    techsupport.create.on.exit=true
+    techsupport.enabled=true
+    techsupport.include.reports=true
+    techsupport.include.sources=true
+    usage.reporting.enabled=false
+
+DIAGNOSTICS INFO:
+DTP autoconfiguration is not enabled.
+
+================================================================================================
+SERVICE: com.parasoft.xtest.techsupport.TechSupportService@6b1e7ad3
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@4ebadd3d
+LICENSE ENABLED: 
+================================================================================================
+LOCAL SETTINGS:
+    logging.scontrol.verbose=false
+    techsupport.archive.location=C:\jenkins\workspace\sonarqube_integration_test
+    techsupport.create.on.exit=true
+    techsupport.enabled=true
+    techsupport.include.reports=true
+    techsupport.single.archive.mode=
+
+DIAGNOSTICS INFO:
+Preferences class: com.parasoft.xtest.techsupport.internal.preferences.TechSupportPreferences
+Current packages dir: C:\jenkins\workspace\sonarqube_integration_test
+Total registered items: 9
+   com.parasoft.xtest.cpp.techsupport.CpptestLogsTechSupportItem, name: C/C++test log file, key: null
+   com.parasoft.xtest.lic.client.internal.techsupport.LicenseLogTechSupportItem, key: null
+   com.parasoft.xtest.reports.internal.ReportsTechSupportItem, name: Report files, key: techsupport.include.reports
+   com.parasoft.xtest.techsupport.internal.EnvironmentTechSupportItem, key: null
+   com.parasoft.xtest.techsupport.internal.LogsTechSupportItem, name: Source control output, key: logging.scontrol.verbose
+   com.parasoft.xtest.techsupport.internal.DiagnosticsTechSupportItem, key: null
+   com.parasoft.xtest.techsupport.internal.ConsoleTechSupportItem, key: null
+   com.parasoft.xtest.techsupport.internal.LicenseTechSupportItem, key: null
+   com.parasoft.xtest.techsupport.internal.TestConfigurationTechSupportItem, key: null
+
+
+================================================================================================
+SERVICE: com.parasoft.xtest.lic.client.internal.service.LicenseService@77ee25f1
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@4ebadd3d
+LICENSE ENABLED: 
+================================================================================================
+LOCAL SETTINGS:
+    c++test.license.custom_edition_features=C++test,Static Analysis,Flow Analysis,Unit Test,Coverage,Automation,DTP Publish,Desktop Command Line,AUTOSAR Rules,CWE Rules,DISA STIG Rules,HIC++ Rules,JSF Rules,MISRA Rules,MISRA C 2012 Rules,OWASP Rules,Security Rules,SEI CERT C Rules,SEI CERT C++ Rules,Code Dependency Export
+    c++test.license.enabled=true
+    c++test.license.network.edition=custom_edition
+    c++test.license.network.type=ls
+    c++test.license.use_network=true
+    license.start_deactivated=false
+
+DIAGNOSTICS INFO:
+Registered license definition providers:
+    com.parasoft.xtest.cpp.flowexecutor.license.CpptestLicenseDefinitionProvider
+
+License requirements statuses:
++ ---------------------------------- + ------------- +
+| Requirement                        | Enabled/Limit |
++ ---------------------------------- + ------------- +
+| Max-Parallel-Jobs-Value            | -1            |
+| Max-Testables-Value                | -1            |
+| Flow-Analysis-Data                 | false         |
+| Source-Control                     | true          |
+| Bug-Detective                      | true          |
+| Embedded-Testing                   | true          |
+| Concerto-Access                    | true          |
+| Code-Review                        | true          |
+| Security                           | true          |
+| Parameterization                   | true          |
+| Mass-Creation                      | true          |
+| Enforce-Max-Errors                 | true          |
+| XML-Report-Generation              | true          |
+| Change-Based-Testing               | true          |
+| API-Test-Creation                  | true          |
+| Quick-Fix                          | true          |
+| Generate-Recommendations           | true          |
+| Unit-Testing                       | true          |
+| Automation                         | true          |
+| Application-Monitoring             | true          |
+| DTP-Access                         | true          |
+| Rule-Wizard                        | true          |
+| Coverage                           | true          |
+| Sniffer                            | true          |
+| Email-Reports                      | true          |
+| Max-Unit-Test-Bulk-Testables-Value | true          |
+| Performance-Benchmarking           | true          |
+| Team-Share-Edit                    | true          |
+| Command-Line-Execution             | true          |
+| Team-Share-Access                  | true          |
+| Runtime-Error-Detection            | true          |
+| Spring-Framework                   | true          |
+| Self-Healing                       | true          |
+| Team-Share-Results-Upload          | true          |
+| Native-Tests-Import                | true          |
+| Coding-Standards                   | true          |
+| Main                               | true          |
+| Flow-Analysis                      | true          |
++ ---------------------------------- + ------------- +
+
+
+================================================================================================
+SERVICE: com.parasoft.xtest.common.telemetry.TelemetryReporter@497e0d2b
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@4ebadd3d
+LICENSE ENABLED: 
+================================================================================================
+LOCAL SETTINGS:
+    usage.reporting.enabled=false
+
+DIAGNOSTICS INFO:
+Settings from TelemetryReporter:
+PARASOFT_TELEMETRY_KEY: not empty
+PARASOFT_TELEMETRY_DISABLED: true
+Disabled permanently: true
+
+================================================================================================
+SERVICE: com.parasoft.xtest.common.oidc.OidcService@1be0ce2d
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@4ebadd3d
+LICENSE ENABLED: 
+================================================================================================
+LOCAL SETTINGS:
+    oidc.callback.host=localhost
+    oidc.callback.port=0
+    oidc.callback.timeout=60
+    oidc.cli.mode=DeviceCode
+    oidc.client.secret=>>not set<<
+    oidc.devicecode.token.file=C:\Users\mthomas\AppData\Local\Parasoft\DtpPlugin\oidc_device_code
+    oidc.enabled=false
+    oidc.keystore.password=>>not set<<
+
+DIAGNOSTICS INFO:
+OpenID Connect Service is not enabled.
+
+================================================================================================
+SERVICE: com.parasoft.xtest.common.dtp.DtpServiceRegistry@2fc941b6
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@4ebadd3d
+LICENSE ENABLED: 
+================================================================================================
+LOCAL SETTINGS:
+    (Empty)
+
+DIAGNOSTICS INFO:
+Connection settings: 
+    User: devtest
+    Password: >>hidden<<
+    Project: C++test
+    Server: https://snake.parasoft.com:443
+
+Available services: 
+    dataCollectorV2 : https://snake.parasoft.com:8082/api/v2/dataCollector
+    testConfigurationsExtended : https://snake.parasoft.com/grs/api/v1/testConfigurations
+    existingLocalSourceCopy : https://snake.parasoft.com:8082/api/v1/existingLocalSourceCopy
+    rules : https://snake.parasoft.com/grs/api/v1/rules
+    tools : https://snake.parasoft.com/grs/api/v1/tools
+    changeExplorer : https://snake.parasoft.com/grs/dtp/explorers/change
+    priorities : https://snake.parasoft.com/grs/api/v1/priorities
+    processIntelligenceEngine : https://snake.parasoft.com:8314
+    staticAnalysisViolations : https://snake.parasoft.com/grs/api/v1/staticAnalysisViolations
+    builds : https://snake.parasoft.com/grs/api/v1/builds
+    metricsExplorer : https://snake.parasoft.com/grs/dtp/explorers/metrics
+    violationsExplorer : https://snake.parasoft.com/grs/dtp/explorers/violations
+    reportedResourcesScmRepositories : https://snake.parasoft.com/grs/api/v1/reportedResourcesScmRepositories
+    localSettings : https://snake.parasoft.com/grs/api/v1/dtpServices/localSettings
+    coverage : https://snake.parasoft.com/grs/api/v1/coverage
+    staticAnalysisViolationsMetadata : https://snake.parasoft.com/grs/api/v1/staticAnalysisViolations/metadata
+    dynamicAnalysisTestCases : https://snake.parasoft.com/grs/api/v1/dynamicAnalysisTestCases
+    testExplorer : https://snake.parasoft.com/grs/dtp/explorers/test
+    filters : https://snake.parasoft.com/grs/api/v1/filters
+    dataCollector : https://snake.parasoft.com:8082/api/v1/dataCollector
+    coverageExplorer : https://snake.parasoft.com/grs/dtp/explorers/coverage
+    ruleMapResources : https://snake.parasoft.com/grs/api/v1/testConfigurations/ruleMaps/resources
+    license : https://snake.parasoft.com/grs/api/v1/license/token
+    testConfigurations : https://snake.parasoft.com/grs/api/v1/testConfigurations
+    licenseServer : https://snake.parasoft.com/licenseserver/api/v1
+    reportCenter : https://snake.parasoft.com/grs/index.jsp
+
+
+================================================================================================
+SERVICE: com.parasoft.xtest.share.internal.dtp.DTPSharingRepository@476a736d
+CONTEXT: com.parasoft.xtest.cpp.util.rules.URules$ContextNoConsole@35835fa
+LICENSE ENABLED: 
+================================================================================================
+LOCAL SETTINGS:
+    dtp.share.enabled=[undefined]
+
+DIAGNOSTICS INFO:
+    Enabled: false
+    Uri: null
+
+
+================================================================================================
+SERVICE: com.parasoft.xtest.share.internal.local.LocalSharingRepository@7fc645e4
+CONTEXT: com.parasoft.xtest.cpp.util.rules.URules$ContextNoConsole@35835fa
+LICENSE ENABLED: 
+================================================================================================
+LOCAL SETTINGS:
+    (Empty)
+
+DIAGNOSTICS INFO:
+    Enabled: true
+    Dir: C:\Users\yshi\git\sonarqube-integration-tests\projects\FlowAnalysisCpp\.\.cpptest\com.parasoft.xtest.share\local
+
+================================================================================================
+PROFILER RESULTS
+================================================================================================
+
+License Profiler
++ ------------------------------------------------------------ + ----- + --------- + ------- + ------- + ------- +
+| NAME                                                         | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
++ ------------------------------------------------------------ + ----- + --------- + ------- + ------- + ------- +
+| IntLicManager.releaseLicenes                                 | 1     | 1.025     | 1.025   | 1.025   | 1.025   |
+| IntLicManager.getState[C++Test]                              | 29    | 0.704     | 0.0     | 0.352   | 0.024   |
+| LicenseService.isEnabled[Main]                               | 2     | 0.702     | 0.35    | 0.352   | 0.351   |
+| IntLicManager.WAIT[main]                                     | 1     | 0.351     | 0.351   | 0.351   | 0.351   |
+| IntLicManager.activateLicense                                | 1     | 0.351     | 0.351   | 0.351   | 0.351   |
+| IntLicManager.WAIT[ServiceDiagnosticCollector Thread]        | 1     | 0.35      | 0.35    | 0.35    | 0.35    |
+| LicenseModule.initializeModule                               | 1     | 0.224     | 0.224   | 0.224   | 0.224   |
+| IntLicManager.activateFinished                               | 1     | 0.001     | 0.001   | 0.001   | 0.001   |
+| LicenseService.isEnabled[Security]                           | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Command-Line-Execution]             | 2     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Flow-Analysis]                      | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Team-Share-Edit]                    | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[SEI CERT C Rules]                   | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Team-Share-Access]                  | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| IntLicManager.getState[C++Test CWE Rules]                    | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| IntLicManager.getState[C++Test Flow Analysis]                | 2     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Mass-Creation]                      | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Automation]                         | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Performance-Benchmarking]           | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[AUTOSAR Rules]                      | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[HIC++ Rules]                        | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Native-Tests-Import]                | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Embedded-Testing]                   | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[API-Test-Creation]                  | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Runtime-Error-Detection]            | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Code-Review]                        | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Coverage]                           | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Spring-Framework]                   | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| IntLicManager.getState[C++Test SEI CERT C Rules]             | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| IntLicManager.getState[C++Test Automation]                   | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| IntLicManager.getState[C++Test HIC++ Rules]                  | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| IntLicManager.getState[C++Test MISRA Rules]                  | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Concerto-Access]                    | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| IntLicManager.getState[C++Test DISA STIG Rules]              | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[MISRA C 2012 Rules]                 | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Enforce-Max-Errors]                 | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Rule-Wizard]                        | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| IntLicManager.getState[C++Test Unit Test]                    | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[CWE Rules]                          | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Email-Reports]                      | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Quick-Fix]                          | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Unit-Testing]                       | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[JSF Rules]                          | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| IntLicManager.getState[C++Test Desktop Command Line]         | 2     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Max-Unit-Test-Bulk-Testables-Value] | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[SEI CERT C++ Rules]                 | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| IntLicManager.getState[C++Test Coverage Advisor]             | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[DISA STIG Rules]                    | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| IntLicManager.getState[C++Test AUTOSAR Rules]                | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[DTP-Access]                         | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Flow-Analysis-Data]                 | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Security Rules]                     | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[XML-Report-Generation]              | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Team-Share-Results-Upload]          | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| IntLicManager.getState[C++Test SEI CERT C++ Rules]           | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Application-Monitoring]             | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[OWASP Rules]                        | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseServiceModules .statusChanged                         | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Coding-Standards]                   | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Change-Based-Testing]               | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Sniffer]                            | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Bug-Detective]                      | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Generate-Recommendations]           | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| IntLicManager.getState[C++Test Coding Standards]             | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| IntLicManager.getState[C++Test Security Rules]               | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Source-Control]                     | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| IntLicManager.getState[C++Test MISRA C 2012 Rules]           | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| IntLicManager.getState[C++Test OWASP Rules]                  | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| IntLicManager.getState[C++Test DTP Publish]                  | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| IntLicManager.invokeAsyncCallsQueue                          | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| IntLicManager.getState[C++Test JSF Rules]                    | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Parameterization]                   | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[MISRA Rules]                        | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| IntLicManager.getState[C++Test Coverage]                     | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| IntLicManager.checkFinished                                  | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Self-Healing]                       | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
++ ------------------------------------------------------------ + ----- + --------- + ------- + ------- + ------- +
+TOTAL: 3.708s
+
+C++test Scope Profiler
++ ----------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| NAME                                | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
++ ----------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| TraceBuildDataProvider.computeScope | 1     | 0.174     | 0.174   | 0.174   | 0.174   |
+| TxtFileReader.computeScope          | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LstFileReader.computeScope          | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| BdfFileReader.computeScope          | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| SlnScopeComputer.computeScope       | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| CmakeBuildDataProvider.computeScope | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| DirectCommandHandler.computeScope   | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| VCProjScopeComputer.computeScope    | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| VCXProjScopeComputer.computeScope   | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
++ ----------------------------------- + ----- + --------- + ------- + ------- + ------- +
+TOTAL: 0.174s
+
+Async Call Profiler
++ ------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| NAME                                        | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
++ ------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| InternalLicenseManager.invokeAsyncCall:1153 | 51    | 1.025     | 0.0     | 1.025   | 0.02    |
+| InternalLicenseManager.activateLicense:373  | 1     | 0.353     | 0.353   | 0.353   | 0.353   |
+| AsyncCallHandler.startThread                | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
++ ------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+TOTAL: 1.378s
+
+Rule Profiler
++ ------------------------------------------------------ + ----- + --------- + ------- + ------- + ------- +
+| NAME                                                   | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
++ ------------------------------------------------------ + ----- + --------- + ------- + ------- + ------- +
+| RulesService.init                                      | 1     | 0.169     | 0.169   | 0.169   | 0.169   |
+| RuleDescriptionParser.parseFile                        | 9     | 0.055     | 0.0     | 0.023   | 0.006   |
+| RuleDescriptionUpdateService.refreshSharedDescriptions | 1     | 0.012     | 0.012   | 0.012   | 0.012   |
++ ------------------------------------------------------ + ----- + --------- + ------- + ------- + ------- +
+TOTAL: 0.236s
+
+XRest Profiler
++ ------------------------- + ----- + --------- + ------- + ------- + ------- +
+| NAME                      | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
++ ------------------------- + ----- + --------- + ------- + ------- + ------- +
+| /licenseserver/api/v1     | 24    | 1.221     | 0.003   | 0.175   | 0.05    |
+| /grs/api/v1.6/dtpServices | 1     | 0.145     | 0.145   | 0.145   | 0.145   |
+| /grs/api/v1/dtpServices   | 1     | 0.011     | 0.011   | 0.011   | 0.011   |
++ ------------------------- + ----- + --------- + ------- + ------- + ------- +
+TOTAL: 1.377s
+
+VM Info Profiler
++ ------ + ----- + --------- + ------- + ------- + ------- +
+| NAME   | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
++ ------ + ----- + --------- + ------- + ------- + ------- +
+| Docker | 1     | 0.002     | 0.002   | 0.002   | 0.002   |
++ ------ + ----- + --------- + ------- + ------- + ------- +
+TOTAL: 0.002s
+================================================================================================
+SERVICES PROFILER
+================================================================================================
+Services provider profiler (COUNT > 1):
++ --------------------------------------------- + ----- + --------- +
+| NAME                                          | COUNT | TOTAL [s] |
++ --------------------------------------------- + ----- + --------- +
+| getService(IProfilerService$Factory)          | 9     | 0.0       |
+| getService(IProfilerService)                  | 7     | 0.001     |
+| getServices(IAnalyzerRunnerService)           | 2     | 0.001     |
+| getService(IProxySettingsProviderService)     | 26    | 0.001     |
+| getService(IProfilerStatisticsService)        | 7     | 0.003     |
+| getServices(IPreferenceValidationRules)       | 2     | 0.003     |
+| getService(ISystemService)                    | 5     | 0.005     |
+| getService(ILicenseService)                   | 14    | 0.007     |
+| getService(IOidcService)                      | 4     | 0.009     |
+| getService(ITelemetryReporter)                | 2     | 0.012     |
+| getService(IPreferencesService)               | 3     | 0.065     |
+| getServices(ITechSupportItemsProviderService) | 4     | 0.117     |
+| getServices(IPreferences)                     | 16    | 0.144     |
+| getService(IApplication)                      | 67    | 0.162     |
+| getService(IDtpServiceRegistry)               | 4     | 0.197     |
++ --------------------------------------------- + ----- + --------- +
+TOTAL: 0.727
+================================================================================================
+SERVICES INSTANCES COUNT
+================================================================================================
+
++ ----------------------------------------------------------------------------------- + ----- +
+| Class                                                                               | Count |
++ ----------------------------------------------------------------------------------- + ----- +
+| com.parasoft.xtest.common.profiler.ProfilerService                                  | 7     |
+| com.parasoft.xtest.cpp.util.scope.InputOptionCommandLineContributor                 | 4     |
+| com.parasoft.xtest.common.SystemService                                             | 3     |
+| com.parasoft.xtest.common.dtp.DtpPreferences                                        | 2     |
+| com.parasoft.xtest.common.preferences.GeneralPreferences                            | 2     |
+| com.parasoft.xtest.common.application.OSGiApplication                               | 1     |
+| com.parasoft.xtest.common.dtp.DtpAutoconfPreferencesService                         | 1     |
+| com.parasoft.xtest.common.dtp.DtpServiceRegistry                                    | 1     |
+| com.parasoft.xtest.common.httpclient.DefaultProxySettingsProvider                   | 1     |
+| com.parasoft.xtest.common.localsettings.compatibility.PreferenceCompatibilityRules  | 1     |
+| com.parasoft.xtest.common.localsettings.validation.FilePreferenceValidationRules    | 1     |
+| com.parasoft.xtest.common.localsettings.validation.PreferenceValidationRules        | 1     |
+| com.parasoft.xtest.common.oidc.OidcService                                          | 1     |
+| com.parasoft.xtest.common.preferences.EnginesPreferences                            | 1     |
+| com.parasoft.xtest.common.preferences.OidcPreferences                               | 1     |
+| com.parasoft.xtest.common.profiler.ProfilerServiceFactory                           | 1     |
+| com.parasoft.xtest.common.profiler.ProfilerStatisticsService                        | 1     |
+| com.parasoft.xtest.common.telemetry.TelemetryReporter                               | 1     |
+| com.parasoft.xtest.common.variables.DynamicVariablesResolver                        | 1     |
+| com.parasoft.xtest.common.variables.EnvironmentVariablesResolver                    | 1     |
+| com.parasoft.xtest.common.variables.StaticVariablesResolver                         | 1     |
+| com.parasoft.xtest.configuration.TestConfigurationsServiceFactory                   | 1     |
+| com.parasoft.xtest.configuration.internal.BuiltinConfigDataProvider                 | 1     |
+| com.parasoft.xtest.configuration.internal.DtpConfigDataProvider                     | 1     |
+| com.parasoft.xtest.configuration.internal.SharedConfigDataProvider                  | 1     |
+| com.parasoft.xtest.configuration.internal.UrlConfigDataProvider                     | 1     |
+| com.parasoft.xtest.configuration.internal.UserConfigDataProvider                    | 1     |
+| com.parasoft.xtest.configuration.rules.RuleDescriptionUpdateService                 | 1     |
+| com.parasoft.xtest.configuration.rules.RulesServiceFactory                          | 1     |
+| com.parasoft.xtest.cpp.analyzer.googletest.CommandLineContributor                   | 1     |
+| com.parasoft.xtest.cpp.config.rulesvalidator.TestConfigRulesValidator               | 1     |
+| com.parasoft.xtest.cpp.flowexecutor.commandline.CommandLineContributor              | 1     |
+| com.parasoft.xtest.cpp.flowexecutor.license.CpptestLicenseDefinitionProvider        | 1     |
+| com.parasoft.xtest.cpp.flowexecutor.telemetry.TelemetryConfigurationService         | 1     |
+| com.parasoft.xtest.cpp.integration.desktop.ut.CommandLineContributor                | 1     |
+| com.parasoft.xtest.cpp.integration.desktop.ut.scope.DesktopUnitTestingScopeComputer | 1     |
+| com.parasoft.xtest.cpp.integration.unittesting.CommandLineContributor               | 1     |
+| com.parasoft.xtest.cpp.integration.unittesting.scope.UnitTestingScopeComputer       | 1     |
+| com.parasoft.xtest.cpp.scope.bdf.BdfFileReader                                      | 1     |
+| com.parasoft.xtest.cpp.scope.bdf.CommandLineContributor                             | 1     |
+| com.parasoft.xtest.cpp.scope.cmake.CmakeBuildDataProvider                           | 1     |
+| com.parasoft.xtest.cpp.scope.cmake.CommandLineContributor                           | 1     |
+| com.parasoft.xtest.cpp.scope.coverage.CommandLineContributor                        | 1     |
+| com.parasoft.xtest.cpp.scope.coverage.CoverageScopeComputer                         | 1     |
+| com.parasoft.xtest.cpp.scope.direct.CommandLineContributor                          | 1     |
+| com.parasoft.xtest.cpp.scope.direct.DirectCommandHandler                            | 1     |
+| com.parasoft.xtest.cpp.scope.googletest.CommandLineContributor                      | 1     |
+| com.parasoft.xtest.cpp.scope.googletest.GoogleTestScopeComputer                     | 1     |
+| com.parasoft.xtest.cpp.scope.lst.CommandLineContributor                             | 1     |
+| com.parasoft.xtest.cpp.scope.lst.LstFileReader                                      | 1     |
+| com.parasoft.xtest.cpp.scope.sln.SlnScopeComputer                                   | 1     |
+| com.parasoft.xtest.cpp.scope.trace.CommandLineContributor                           | 1     |
+| com.parasoft.xtest.cpp.scope.trace.TraceBuildDataProvider                           | 1     |
+| com.parasoft.xtest.cpp.scope.txt.TxtFileReader                                      | 1     |
+| com.parasoft.xtest.cpp.scope.vcproj.VCProjScopeComputer                             | 1     |
+| com.parasoft.xtest.cpp.scope.vcxproj.VCXProjScopeComputer                           | 1     |
+| com.parasoft.xtest.cpp.techsupport.CpptestTechSupportItemsProvider                  | 1     |
+| com.parasoft.xtest.cpp.util.config.PreferenceValidationRules                        | 1     |
+| com.parasoft.xtest.flowanalysis.common.config.PreferenceValidationRules             | 1     |
+| com.parasoft.xtest.lic.client.LicenseNetworkAdvancedPreferences                     | 1     |
+| com.parasoft.xtest.lic.client.LicensePreferences                                    | 1     |
+| com.parasoft.xtest.lic.client.internal.service.LicenseService                       | 1     |
+| com.parasoft.xtest.lic.client.internal.techsupport.LicenseTechSupportItemsProvider  | 1     |
+| com.parasoft.xtest.reports.internal.ReportsTechSupportItemsProvider                 | 1     |
+| com.parasoft.xtest.share.internal.dtp.DTPSharingRepository                          | 1     |
+| com.parasoft.xtest.share.internal.local.LocalSharingRepository                      | 1     |
+| com.parasoft.xtest.techsupport.CommonTechSupportItemsProvider                       | 1     |
+| com.parasoft.xtest.techsupport.TechSupportService                                   | 1     |
+| com.parasoft.xtest.techsupport.internal.preferences.TechSupportPreferences          | 1     |
++ ----------------------------------------------------------------------------------- + ----- +

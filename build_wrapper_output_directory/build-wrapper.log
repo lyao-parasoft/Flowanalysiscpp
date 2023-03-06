@@ -1,0 +1,169 @@
+Mon Aug 29 21:38:33 2022: build-wrapper, version 6.34 (win-x86-64)
+Mon Aug 29 21:38:33 2022: isWow64: 0
+Mon Aug 29 21:38:33 2022: windows version: 6.2, service pack: 0.0, build number: 9200, product type: 1
+Mon Aug 29 21:38:33 2022: current directory: C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\FlowAnalysisCpp
+Mon Aug 29 21:38:33 2022: cwd: <C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\FlowAnalysisCpp>
+Mon Aug 29 21:38:33 2022: out-dir absolute path: <C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\FlowAnalysisCpp\build_wrapper_output_directory>
+Mon Aug 29 21:38:33 2022: command line received: <make clean all>
+Mon Aug 29 21:38:33 2022: initializing json file
+Mon Aug 29 21:38:33 2022: starting debug cycle
+Mon Aug 29 21:38:33 2022: process created with pid: 26460
+Mon Aug 29 21:38:33 2022: image path name: <E:\cygwin64\bin\make.exe>
+Mon Aug 29 21:38:33 2022: command line: <make clean all>
+Mon Aug 29 21:38:33 2022: working directory: <C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\FlowAnalysisCpp\>
+Mon Aug 29 21:38:33 2022: isWow64: 0
+Mon Aug 29 21:38:33 2022: skipping process E:\cygwin64\bin\make.exe with pid: 26460
+Mon Aug 29 21:38:33 2022: process created with pid: 13320
+Mon Aug 29 21:38:33 2022: image path name: <E:\cygwin64\bin\make.exe>
+Mon Aug 29 21:38:33 2022: command line: <make clean all>
+Mon Aug 29 21:38:33 2022: working directory: <C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\FlowAnalysisCpp\>
+Mon Aug 29 21:38:33 2022: isWow64: 0
+Mon Aug 29 21:38:33 2022: skipping process E:\cygwin64\bin\make.exe with pid: 13320
+Mon Aug 29 21:38:33 2022: process created with pid: 3316
+Mon Aug 29 21:38:33 2022: image path name: <E:\cygwin64\bin\rm.exe>
+Mon Aug 29 21:38:33 2022: command line: <E:\cygwin64\bin\rm.exe -rf obj>
+Mon Aug 29 21:38:33 2022: working directory: <C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\FlowAnalysisCpp\>
+Mon Aug 29 21:38:33 2022: isWow64: 0
+Mon Aug 29 21:38:33 2022: skipping process E:\cygwin64\bin\rm.exe with pid: 3316
+Mon Aug 29 21:38:33 2022: process with pid 13320 exit with code: 0 (0x0)
+Mon Aug 29 21:38:33 2022: process with pid 3316 exit with code: 0 (0x0)
+Mon Aug 29 21:38:33 2022: process created with pid: 6416
+Mon Aug 29 21:38:33 2022: image path name: <E:\cygwin64\bin\make.exe>
+Mon Aug 29 21:38:33 2022: command line: <make clean all>
+Mon Aug 29 21:38:33 2022: working directory: <C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\FlowAnalysisCpp\>
+Mon Aug 29 21:38:33 2022: isWow64: 0
+Mon Aug 29 21:38:33 2022: skipping process E:\cygwin64\bin\make.exe with pid: 6416
+Mon Aug 29 21:38:33 2022: process created with pid: 7692
+Mon Aug 29 21:38:33 2022: image path name: <E:\cygwin64\bin\mkdir.exe>
+Mon Aug 29 21:38:33 2022: command line: <E:\cygwin64\bin\mkdir.exe obj>
+Mon Aug 29 21:38:33 2022: working directory: <C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\FlowAnalysisCpp\>
+Mon Aug 29 21:38:33 2022: isWow64: 0
+Mon Aug 29 21:38:33 2022: skipping process E:\cygwin64\bin\mkdir.exe with pid: 7692
+Mon Aug 29 21:38:33 2022: process with pid 6416 exit with code: 0 (0x0)
+Mon Aug 29 21:38:33 2022: process with pid 7692 exit with code: 0 (0x0)
+Mon Aug 29 21:38:33 2022: process created with pid: 26328
+Mon Aug 29 21:38:33 2022: image path name: <E:\cygwin64\bin\make.exe>
+Mon Aug 29 21:38:33 2022: command line: <make clean all>
+Mon Aug 29 21:38:33 2022: working directory: <C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\FlowAnalysisCpp\>
+Mon Aug 29 21:38:33 2022: isWow64: 0
+Mon Aug 29 21:38:33 2022: skipping process E:\cygwin64\bin\make.exe with pid: 26328
+Mon Aug 29 21:38:33 2022: process created with pid: 16164
+Mon Aug 29 21:38:33 2022: image path name: <E:\cygwin64\bin\g++.exe>
+Mon Aug 29 21:38:33 2022: command line: <E:\cygwin64\bin\g++.exe -g -Iinclude -o obj/NullPointer.o -c NullPointer.cpp>
+Mon Aug 29 21:38:33 2022: working directory: <C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\FlowAnalysisCpp\>
+Mon Aug 29 21:38:33 2022: isWow64: 0
+Mon Aug 29 21:38:33 2022: env0: <PATH=E:\cygwin64\usr\local\bin;E:\cygwin64\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11\bin;C:\Users\mthomas\Desktop\apache-maven-3.8.5\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn;C:\Program Files\dotnet;C:\Users\mthomas\Desktop\SonarQube\cpptest;C:\Users\mthomas\Desktop\automation\eclipse\rcptt_resources\jtest_master;C:\Users\mthomas\Desktop\SonarQube\sonar-scanner-4.7.0.2747-windows\bin;C:\Users\mthomas\Desktop\SonarQube\build-wrapper-win-x86;C:\Users\mthomas\Desktop\SonarQube\dottest;C:\Users\mthomas\Desktop\SonarQube\jtest;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\mthomas\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\mthomas\AppData\Local\Programs\Python\Python310;C:\Users\mthomas\AppData\Local\Microsoft\WindowsApps;C:\Users\mthomas\.dotnet\tools;E:\cygwin64\lib\lapack;~\arcanist\arcanist\bin\>
+Mon Aug 29 21:38:33 2022: env1: <SYSTEMDRIVE=C:>
+Mon Aug 29 21:38:33 2022: env2: <SYSTEMROOT=C:\Windows>
+Mon Aug 29 21:38:33 2022: env3: <WINDIR=C:\Windows>
+Mon Aug 29 21:38:33 2022: process created with pid: 16316
+Mon Aug 29 21:38:33 2022: image path name: <E:\cygwin64\lib\gcc\x86_64-pc-cygwin\9.3.0\cc1plus.exe>
+Mon Aug 29 21:38:33 2022: command line: <E:\cygwin64\lib\gcc\x86_64-pc-cygwin\9.3.0\cc1plus.exe -quiet -I include -idirafter /usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api -idirafter /usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../x86_64-pc-cygwin/lib/../lib/../../include/w32api NullPointer.cpp -quiet -dumpbase NullPointer.cpp -mtune=generic -march=x86-64 -auxbase-strip obj/NullPointer.o -g -o /tmp/ccQujwah.s>
+Mon Aug 29 21:38:33 2022: working directory: <C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\FlowAnalysisCpp\>
+Mon Aug 29 21:38:33 2022: isWow64: 0
+Mon Aug 29 21:38:33 2022: skipping process E:\cygwin64\lib\gcc\x86_64-pc-cygwin\9.3.0\cc1plus.exe with pid: 16316
+Mon Aug 29 21:38:33 2022: process with pid 26328 exit with code: 0 (0x0)
+Mon Aug 29 21:38:33 2022: process with pid 16316 exit with code: 0 (0x0)
+Mon Aug 29 21:38:33 2022: process created with pid: 25560
+Mon Aug 29 21:38:33 2022: image path name: <E:\cygwin64\usr\x86_64-pc-cygwin\bin\as.exe>
+Mon Aug 29 21:38:33 2022: command line: <E:\cygwin64\usr\x86_64-pc-cygwin\bin\as.exe -I include -o obj/NullPointer.o /tmp/ccQujwah.s>
+Mon Aug 29 21:38:33 2022: working directory: <C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\FlowAnalysisCpp\>
+Mon Aug 29 21:38:33 2022: isWow64: 0
+Mon Aug 29 21:38:33 2022: skipping process E:\cygwin64\usr\x86_64-pc-cygwin\bin\as.exe with pid: 25560
+Mon Aug 29 21:38:33 2022: process with pid 25560 exit with code: 0 (0x0)
+Mon Aug 29 21:38:33 2022: process with pid 16164 exit with code: 0 (0x0)
+Mon Aug 29 21:38:33 2022: process created with pid: 19272
+Mon Aug 29 21:38:33 2022: image path name: <E:\cygwin64\bin\make.exe>
+Mon Aug 29 21:38:33 2022: command line: <make clean all>
+Mon Aug 29 21:38:33 2022: working directory: <C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\FlowAnalysisCpp\>
+Mon Aug 29 21:38:33 2022: isWow64: 0
+Mon Aug 29 21:38:33 2022: skipping process E:\cygwin64\bin\make.exe with pid: 19272
+Mon Aug 29 21:38:33 2022: process created with pid: 20976
+Mon Aug 29 21:38:33 2022: image path name: <E:\cygwin64\bin\g++.exe>
+Mon Aug 29 21:38:33 2022: command line: <E:\cygwin64\bin\g++.exe -g -Iinclude -o obj/DivisionByZero.o -c DivisionByZero.cpp>
+Mon Aug 29 21:38:33 2022: working directory: <C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\FlowAnalysisCpp\>
+Mon Aug 29 21:38:33 2022: isWow64: 0
+Mon Aug 29 21:38:33 2022: env0: <PATH=E:\cygwin64\usr\local\bin;E:\cygwin64\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11\bin;C:\Users\mthomas\Desktop\apache-maven-3.8.5\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn;C:\Program Files\dotnet;C:\Users\mthomas\Desktop\SonarQube\cpptest;C:\Users\mthomas\Desktop\automation\eclipse\rcptt_resources\jtest_master;C:\Users\mthomas\Desktop\SonarQube\sonar-scanner-4.7.0.2747-windows\bin;C:\Users\mthomas\Desktop\SonarQube\build-wrapper-win-x86;C:\Users\mthomas\Desktop\SonarQube\dottest;C:\Users\mthomas\Desktop\SonarQube\jtest;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\mthomas\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\mthomas\AppData\Local\Programs\Python\Python310;C:\Users\mthomas\AppData\Local\Microsoft\WindowsApps;C:\Users\mthomas\.dotnet\tools;E:\cygwin64\lib\lapack;~\arcanist\arcanist\bin\>
+Mon Aug 29 21:38:33 2022: env1: <SYSTEMDRIVE=C:>
+Mon Aug 29 21:38:33 2022: env2: <SYSTEMROOT=C:\Windows>
+Mon Aug 29 21:38:33 2022: env3: <WINDIR=C:\Windows>
+Mon Aug 29 21:38:33 2022: process created with pid: 11276
+Mon Aug 29 21:38:33 2022: image path name: <E:\cygwin64\lib\gcc\x86_64-pc-cygwin\9.3.0\cc1plus.exe>
+Mon Aug 29 21:38:33 2022: command line: <E:\cygwin64\lib\gcc\x86_64-pc-cygwin\9.3.0\cc1plus.exe -quiet -I include -idirafter /usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api -idirafter /usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../x86_64-pc-cygwin/lib/../lib/../../include/w32api DivisionByZero.cpp -quiet -dumpbase DivisionByZero.cpp -mtune=generic -march=x86-64 -auxbase-strip obj/DivisionByZero.o -g -o /tmp/ccJv8LkC.s>
+Mon Aug 29 21:38:33 2022: working directory: <C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\FlowAnalysisCpp\>
+Mon Aug 29 21:38:33 2022: isWow64: 0
+Mon Aug 29 21:38:33 2022: skipping process E:\cygwin64\lib\gcc\x86_64-pc-cygwin\9.3.0\cc1plus.exe with pid: 11276
+Mon Aug 29 21:38:33 2022: process with pid 19272 exit with code: 0 (0x0)
+Mon Aug 29 21:38:33 2022: process with pid 11276 exit with code: 0 (0x0)
+Mon Aug 29 21:38:33 2022: process created with pid: 16580
+Mon Aug 29 21:38:33 2022: image path name: <E:\cygwin64\usr\x86_64-pc-cygwin\bin\as.exe>
+Mon Aug 29 21:38:33 2022: command line: <E:\cygwin64\usr\x86_64-pc-cygwin\bin\as.exe -I include -o obj/DivisionByZero.o /tmp/ccJv8LkC.s>
+Mon Aug 29 21:38:33 2022: working directory: <C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\FlowAnalysisCpp\>
+Mon Aug 29 21:38:33 2022: isWow64: 0
+Mon Aug 29 21:38:33 2022: skipping process E:\cygwin64\usr\x86_64-pc-cygwin\bin\as.exe with pid: 16580
+Mon Aug 29 21:38:33 2022: process with pid 16580 exit with code: 0 (0x0)
+Mon Aug 29 21:38:33 2022: process with pid 20976 exit with code: 0 (0x0)
+Mon Aug 29 21:38:33 2022: process created with pid: 10008
+Mon Aug 29 21:38:33 2022: image path name: <E:\cygwin64\bin\make.exe>
+Mon Aug 29 21:38:33 2022: command line: <make clean all>
+Mon Aug 29 21:38:33 2022: working directory: <C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\FlowAnalysisCpp\>
+Mon Aug 29 21:38:33 2022: isWow64: 0
+Mon Aug 29 21:38:33 2022: skipping process E:\cygwin64\bin\make.exe with pid: 10008
+Mon Aug 29 21:38:33 2022: process created with pid: 16020
+Mon Aug 29 21:38:33 2022: image path name: <E:\cygwin64\bin\g++.exe>
+Mon Aug 29 21:38:33 2022: command line: <E:\cygwin64\bin\g++.exe -g -Iinclude -o obj/MemoryLeak.o -c MemoryLeak.cpp>
+Mon Aug 29 21:38:33 2022: working directory: <C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\FlowAnalysisCpp\>
+Mon Aug 29 21:38:33 2022: isWow64: 0
+Mon Aug 29 21:38:33 2022: env0: <PATH=E:\cygwin64\usr\local\bin;E:\cygwin64\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11\bin;C:\Users\mthomas\Desktop\apache-maven-3.8.5\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn;C:\Program Files\dotnet;C:\Users\mthomas\Desktop\SonarQube\cpptest;C:\Users\mthomas\Desktop\automation\eclipse\rcptt_resources\jtest_master;C:\Users\mthomas\Desktop\SonarQube\sonar-scanner-4.7.0.2747-windows\bin;C:\Users\mthomas\Desktop\SonarQube\build-wrapper-win-x86;C:\Users\mthomas\Desktop\SonarQube\dottest;C:\Users\mthomas\Desktop\SonarQube\jtest;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\mthomas\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\mthomas\AppData\Local\Programs\Python\Python310;C:\Users\mthomas\AppData\Local\Microsoft\WindowsApps;C:\Users\mthomas\.dotnet\tools;E:\cygwin64\lib\lapack;~\arcanist\arcanist\bin\>
+Mon Aug 29 21:38:33 2022: env1: <SYSTEMDRIVE=C:>
+Mon Aug 29 21:38:33 2022: env2: <SYSTEMROOT=C:\Windows>
+Mon Aug 29 21:38:33 2022: env3: <WINDIR=C:\Windows>
+Mon Aug 29 21:38:33 2022: process created with pid: 8876
+Mon Aug 29 21:38:33 2022: image path name: <E:\cygwin64\lib\gcc\x86_64-pc-cygwin\9.3.0\cc1plus.exe>
+Mon Aug 29 21:38:33 2022: command line: <E:\cygwin64\lib\gcc\x86_64-pc-cygwin\9.3.0\cc1plus.exe -quiet -I include -idirafter /usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api -idirafter /usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../x86_64-pc-cygwin/lib/../lib/../../include/w32api MemoryLeak.cpp -quiet -dumpbase MemoryLeak.cpp -mtune=generic -march=x86-64 -auxbase-strip obj/MemoryLeak.o -g -o /tmp/ccD9FsAo.s>
+Mon Aug 29 21:38:33 2022: working directory: <C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\FlowAnalysisCpp\>
+Mon Aug 29 21:38:33 2022: isWow64: 0
+Mon Aug 29 21:38:33 2022: skipping process E:\cygwin64\lib\gcc\x86_64-pc-cygwin\9.3.0\cc1plus.exe with pid: 8876
+Mon Aug 29 21:38:33 2022: process with pid 10008 exit with code: 0 (0x0)
+Mon Aug 29 21:38:34 2022: process with pid 8876 exit with code: 0 (0x0)
+Mon Aug 29 21:38:34 2022: process created with pid: 492
+Mon Aug 29 21:38:34 2022: image path name: <E:\cygwin64\usr\x86_64-pc-cygwin\bin\as.exe>
+Mon Aug 29 21:38:34 2022: command line: <E:\cygwin64\usr\x86_64-pc-cygwin\bin\as.exe -I include -o obj/MemoryLeak.o /tmp/ccD9FsAo.s>
+Mon Aug 29 21:38:34 2022: working directory: <C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\FlowAnalysisCpp\>
+Mon Aug 29 21:38:34 2022: isWow64: 0
+Mon Aug 29 21:38:34 2022: skipping process E:\cygwin64\usr\x86_64-pc-cygwin\bin\as.exe with pid: 492
+Mon Aug 29 21:38:34 2022: process with pid 492 exit with code: 0 (0x0)
+Mon Aug 29 21:38:34 2022: process with pid 16020 exit with code: 0 (0x0)
+Mon Aug 29 21:38:34 2022: process created with pid: 15572
+Mon Aug 29 21:38:34 2022: image path name: <E:\cygwin64\bin\make.exe>
+Mon Aug 29 21:38:34 2022: command line: <make clean all>
+Mon Aug 29 21:38:34 2022: working directory: <C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\FlowAnalysisCpp\>
+Mon Aug 29 21:38:34 2022: isWow64: 0
+Mon Aug 29 21:38:34 2022: skipping process E:\cygwin64\bin\make.exe with pid: 15572
+Mon Aug 29 21:38:34 2022: process created with pid: 8308
+Mon Aug 29 21:38:34 2022: image path name: <E:\cygwin64\bin\g++.exe>
+Mon Aug 29 21:38:34 2022: command line: <E:\cygwin64\bin\g++.exe -g -Iinclude -o obj/DeadLock.o -c DeadLock.cpp>
+Mon Aug 29 21:38:34 2022: working directory: <C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\FlowAnalysisCpp\>
+Mon Aug 29 21:38:34 2022: isWow64: 0
+Mon Aug 29 21:38:34 2022: env0: <PATH=E:\cygwin64\usr\local\bin;E:\cygwin64\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11\bin;C:\Users\mthomas\Desktop\apache-maven-3.8.5\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn;C:\Program Files\dotnet;C:\Users\mthomas\Desktop\SonarQube\cpptest;C:\Users\mthomas\Desktop\automation\eclipse\rcptt_resources\jtest_master;C:\Users\mthomas\Desktop\SonarQube\sonar-scanner-4.7.0.2747-windows\bin;C:\Users\mthomas\Desktop\SonarQube\build-wrapper-win-x86;C:\Users\mthomas\Desktop\SonarQube\dottest;C:\Users\mthomas\Desktop\SonarQube\jtest;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\mthomas\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\mthomas\AppData\Local\Programs\Python\Python310;C:\Users\mthomas\AppData\Local\Microsoft\WindowsApps;C:\Users\mthomas\.dotnet\tools;E:\cygwin64\lib\lapack;~\arcanist\arcanist\bin\>
+Mon Aug 29 21:38:34 2022: env1: <SYSTEMDRIVE=C:>
+Mon Aug 29 21:38:34 2022: env2: <SYSTEMROOT=C:\Windows>
+Mon Aug 29 21:38:34 2022: env3: <WINDIR=C:\Windows>
+Mon Aug 29 21:38:34 2022: process with pid 15572 exit with code: 0 (0x0)
+Mon Aug 29 21:38:34 2022: process created with pid: 10368
+Mon Aug 29 21:38:34 2022: image path name: <E:\cygwin64\lib\gcc\x86_64-pc-cygwin\9.3.0\cc1plus.exe>
+Mon Aug 29 21:38:34 2022: command line: <E:\cygwin64\lib\gcc\x86_64-pc-cygwin\9.3.0\cc1plus.exe -quiet -I include -idirafter /usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api -idirafter /usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../x86_64-pc-cygwin/lib/../lib/../../include/w32api DeadLock.cpp -quiet -dumpbase DeadLock.cpp -mtune=generic -march=x86-64 -auxbase-strip obj/DeadLock.o -g -o /tmp/ccIJESWa.s>
+Mon Aug 29 21:38:34 2022: working directory: <C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\FlowAnalysisCpp\>
+Mon Aug 29 21:38:34 2022: isWow64: 0
+Mon Aug 29 21:38:34 2022: skipping process E:\cygwin64\lib\gcc\x86_64-pc-cygwin\9.3.0\cc1plus.exe with pid: 10368
+Mon Aug 29 21:38:34 2022: process with pid 10368 exit with code: 0 (0x0)
+Mon Aug 29 21:38:34 2022: process created with pid: 10040
+Mon Aug 29 21:38:34 2022: image path name: <E:\cygwin64\usr\x86_64-pc-cygwin\bin\as.exe>
+Mon Aug 29 21:38:34 2022: command line: <E:\cygwin64\usr\x86_64-pc-cygwin\bin\as.exe -I include -o obj/DeadLock.o /tmp/ccIJESWa.s>
+Mon Aug 29 21:38:34 2022: working directory: <C:\Users\mthomas\Desktop\sonar_integration_test_example_projects\example_projects\FlowAnalysisCpp\>
+Mon Aug 29 21:38:34 2022: isWow64: 0
+Mon Aug 29 21:38:34 2022: skipping process E:\cygwin64\usr\x86_64-pc-cygwin\bin\as.exe with pid: 10040
+Mon Aug 29 21:38:34 2022: process with pid 10040 exit with code: 0 (0x0)
+Mon Aug 29 21:38:34 2022: process with pid 8308 exit with code: 0 (0x0)
+Mon Aug 29 21:38:34 2022: process with pid 26460 exit with code: 0 (0x0)
+Mon Aug 29 21:38:34 2022: finalizing json file
