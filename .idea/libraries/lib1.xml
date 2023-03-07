@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="lib1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.cpptest/com.parasoft.xtest.cpp.launcher/bundle65/version0.0/bundle.jar-embedded/lib/commons-vfs.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.cpptest/com.parasoft.xtest.cpp.launcher/bundle65/version0.0/bundle.jar-embedded/lib/commons-lang.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.cpptest/com.parasoft.xtest.cpp.launcher/bundle65/version0.0/bundle.jar-embedded/lib/httpclient.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.cpptest/com.parasoft.xtest.cpp.launcher/bundle65/version0.0/bundle.jar-embedded/lib/httpmime.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.cpptest/com.parasoft.xtest.cpp.launcher/bundle65/version0.0/bundle.jar-embedded/lib/commons-collections.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.cpptest/com.parasoft.xtest.cpp.launcher/bundle65/version0.0/bundle.jar-embedded/lib/httpclient-cache.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.cpptest/com.parasoft.xtest.cpp.launcher/bundle65/version0.0/bundle.jar-embedded/lib/fluent-hc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.cpptest/com.parasoft.xtest.cpp.launcher/bundle65/version0.0/bundle.jar-embedded/lib/httpcore.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.cpptest/com.parasoft.xtest.cpp.launcher/bundle65/version0.0/bundle.jar-embedded/lib/chardet.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.cpptest/com.parasoft.xtest.cpp.launcher/bundle65/version0.0/bundle.jar-embedded/lib/commons-codec.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.cpptest/com.parasoft.xtest.cpp.launcher/bundle65/version0.0/bundle.jar-embedded/lib/unikey.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.cpptest/com.parasoft.xtest.cpp.launcher/bundle65/version0.0/bundle.jar-embedded/lib/applicationinsights-core.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.cpptest/com.parasoft.xtest.cpp.launcher/bundle74/version0.0/bundle.jar-embedded/lib/batik-all.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.cpptest/com.parasoft.xtest.cpp.launcher/bundle74/version0.0/bundle.jar-embedded/lib/avalon-framework-impl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.cpptest/com.parasoft.xtest.cpp.launcher/bundle74/version0.0/bundle.jar-embedded/lib/fop.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.cpptest/com.parasoft.xtest.cpp.launcher/bundle74/version0.0/bundle.jar-embedded/lib/saxon.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.cpptest/com.parasoft.xtest.cpp.launcher/bundle74/version0.0/bundle.jar-embedded/lib/avalon-framework-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.cpptest/com.parasoft.xtest.cpp.launcher/bundle74/version0.0/bundle.jar-embedded/lib/xmlgraphics-commons.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
