@@ -14,7 +14,7 @@ OBJ = $(OBJ_DIR)/NullPointer.o \
 all : $(OBJ_DIR) $(OBJ)
 
 $(OBJ_DIR) :
-	mkdir $(OBJ_DIR)
+	mkdir -p $(OBJ_DIR)
 
 $(OBJ_DIR)/%.o : %.cpp
 	$(CC) $(CFLAGS) $(INCLUDE_FLAGS) -o $@ -c $^ 
