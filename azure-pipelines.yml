@@ -1,0 +1,30 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- master
+
+pool: 'Default'
+
+steps:
+- script: |
+    set "WORKSPACE_DIR=D:/Azure Devops/agent/_work/work_space/parasoft/cpptest_pro_workspace"
+    rmdir /s /q "%WORKSPACE_DIR%"
+    mkdir "%WORKSPACE_DIR%"
+    "C:/cpptest_professional-2022.1.0/cpptest/bin/cpptesttrace.exe" make clean all
+    "C:/cpptest_professional-2022.1.0/cpptest/cpptestcli.exe" -data "%WORKSPACE_DIR%" -config "conf/pro/cpptest_settings.properties" -settings "conf/pro/localsettings.properties" -report "build/reports/cpptest-pro/static" -bdf "cpptestscan.bdf"
+  displayName: 'Generate static tests report'
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifact'
+  inputs:
+    PathtoPublish: 'build/reports/cpptest-pro/static'
+    ArtifactName: 'sa-report'
+
+- task: PublishParasoftResults@1
+  inputs:
+    resultsFiles: |
+      **/cpptest-pro/static/rep*.xml
+      **/cpptest-pro/static/rep*.sarif
+    failOnFailures: false
