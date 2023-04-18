@@ -10,11 +10,11 @@ pool: 'Default'
 
 steps:
 - script: |
-    set "WORKSPACE_DIR=D:/Azure Devops/agent/_work/work_space/parasoft/cpptest_pro_workspace"
+    set "WORKSPACE_DIR=D:/AzureDevOps agent/_work/work_space/parasoft/cpptest_pro_workspace"
     rmdir /s /q "%WORKSPACE_DIR%"
     mkdir "%WORKSPACE_DIR%"
-    "C:/cpptest_professional-2022.1.0/cpptest/bin/cpptesttrace.exe" make clean all
-    "C:/cpptest_professional-2022.1.0/cpptest/cpptestcli.exe" -data "%WORKSPACE_DIR%" -config "conf/pro/cpptest_settings.properties" -settings "conf/pro/localsettings.properties" -report "build/reports/cpptest-pro/static" -bdf "cpptestscan.bdf"
+    "D:/Installed/Parasoft/parasoft_cpptest_professional-2022.1.0/cpptest/bin/cpptesttrace.exe" make clean all
+    "D:/Installed/Parasoft/parasoft_cpptest_professional-2022.1.0/cpptest/cpptestcli.exe" -data "%WORKSPACE_DIR%" -config "conf/pro/cpptest_settings.properties" -settings "conf/pro/localsettings.properties" -report "build/reports/cpptest-pro/static" -bdf "cpptestscan.bdf"
   displayName: 'Generate static tests report'
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Artifact'
