@@ -10,7 +10,7 @@ pool: 'Default'
 
 steps:
 - script: |
-    set "WORKSPACE_DIR=D:/AzureDevOps agent/_work/work_space/parasoft/cpptest_pro_workspace"
+    set "WORKSPACE_DIR=D:/AzureDevOpsAgent/_work/work_space/parasoft/cpptest_pro_workspace"
     rmdir /s /q "%WORKSPACE_DIR%"
     mkdir "%WORKSPACE_DIR%"
     "D:/Installed/Parasoft/parasoft_cpptest_professional-2022.1.0/cpptest/bin/cpptesttrace.exe" make clean all
