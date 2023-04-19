@@ -1,4 +1,4 @@
-#include "../Shapes.hpp"
+#include "Shapes.hpp"
 
 double getShapeRatio(Shape* shape1, Shape* shape2)
 {
