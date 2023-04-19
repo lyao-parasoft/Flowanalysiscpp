@@ -7,7 +7,7 @@ OBJ_DIR=obj
 OBJ = $(OBJ_DIR)/NullPointer.o \
 	$(OBJ_DIR)/DivisionByZero.o \
 	$(OBJ_DIR)/MemoryLeak.o \
-	$(OBJ_DIR)/DeadLock.o
+	$(OBJ_DIR)/folder/DeadLock.o
 
 .PHONY = clean all
 	
