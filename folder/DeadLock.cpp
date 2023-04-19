@@ -1,4 +1,4 @@
-#include "../Shapes.hpp"
+#include "Shapes.hpp"
 
 #if defined(_MSC_VER) || defined(__MINGW32__)
 
